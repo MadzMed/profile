@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(234, 234, 234);
+  font-family: serif;
+  color: rgb(23, 23, 23);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+body * {
+  margin: 10px 0;
+  padding: 0;
+}
+
+div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: rgb(25, 15, 15);
+  font-family: 'Lato', cursive;
+}
+
+h1 {
+  font-size: 21px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+a {
+  color: rgb(26, 26, 26);
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.display_inline > li {
+  display: inline-block;
+  margin: 5px;
+}
+
+li > div > a:hover {
+  color: rgb(180, 180, 180);
+}
+
+li > a:hover {
+  color: rgb(180, 180, 180);
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  width: 60%;
+  background: white;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 0px 5px 11px rgb(25, 15, 15);
+}
+
+.img-circle {
+  border-radius: 75px;
+  border: 2px solid;
+  opacity: 1;
+}
+
+.img-circle:hover {
+  opacity: 0.65;
+}
+
+a > i {
+  font-size: 30px;
+}
+
+.loading-border {
+  border: 1px solid black;
+  width: 50%;
+  display: inline-block;
+  height: 15px;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.loading-border-red {
+  background: rgb(249, 67, 64);
+  margin: 0;
+  padding: 0;
+}
+
+.btn-red {
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  background: rgb(249, 67, 64);
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.btn-red:hover {
+  background: rgba(249, 67, 64, 0.65)
+}
